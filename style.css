@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+}
+ button,.links li{
+  cursor:pointer;
+ }
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 200px;
+}
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  color: #e5e7eb;
+  font-size: 18px;
+  list-style-type: none;
+  gap: 30px;
+}
+.hero {
+  background-color: #1f2937;
+
+  padding: 90px 200px;
+  display: flex;
+  gap: 25px;
+}
+.content-text {
+  flex: 1;
+  padding: 2px;
+}
+.main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.content-image {
+  flex: 1;
+  background-color: gray;
+}
+.main-text {
+  line-height: 40px;
+}
+.intro {
+  margin: 10px 0;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.sign-up {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 7px;
+}
+.section1 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-contanier {
+  display: flex;
+  gap: 13px;
+}
+.section1 .info {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+.card {
+  margin-top: 40px;
+  width: 170px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .img {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+.card .text {
+  padding: 6px 5px;
+  text-align: center;
+  color: rgb(70, 69, 69);
+  font-size: 17px;
+}
+.section2 {
+  margin-top: 80px;
+  background-color: #e5e7eb;
+  padding: 100px 290px;
+}
+.section2 .quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+.section2 .autour {
+  font-size: 30px;
+  font-weight: 700px;
+  color: #1f2937;
+  text-align: right;
+}
+.section3 {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section3 .container {
+  width: 800px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  border-radius: 6px;
+}
+.section3 .container .button {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  padding: 10px 25px;
+}
+.section3 .container .text h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+.section3 .container .text p {
+  color: rgb(238, 235, 235);
+  font-size: 18px;
+}
+.footer {
+  margin-top: 100px;
+  background-color: #1f2937;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
