@@ -16,15 +16,3 @@ cd lading-page
 
 open index.html
 
-# Project Structure
-landing-page/
-├── images/
-│   ├── ai-generated-8531087_1920.png
-│   ├── controller-161580_1920.png
-│   ├── pubg.png
-│   ├── anger bird.jpg
-│   ├── subway-surfers.jpg
-│   └── temple run2.jpg
-├── index.html
-├── style.css
-└── README.md
