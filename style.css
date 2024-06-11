@@ -237,3 +237,57 @@ button,
         gap: 20px;
     }
 }
+@media (max-width: 430px) {
+    body .header {
+        padding: 15px 10px;
+    }
+    body .hero {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+    body .header img {
+        width: 24px;
+        height: 24px;
+    }
+    body .links {
+        gap: 5px;
+        font-size: 14px;
+    }
+    body .main-text {
+        font-size: 30px;
+    }
+    body .section2 {
+        padding: 20px 20px;
+    }
+    body .section2 .quote,
+    body .section2 .autour {
+        font-size: 19px;
+    }
+    body .card {
+        width: 100px;
+    }
+    .card .img {
+        width: 100%;
+        height: 100%;
+    }
+    body .section3 .container .text h3 {
+        font-size: 16px;
+    }
+    body .section3 .container .text p {
+        font-size: 12px;
+    }
+    body .section3 .container {
+        padding: 20px;
+    }
+    body .card .text {
+        font-size: 14px;
+    }
+    body .section3,
+    .footer,
+    body .section2 {
+        margin-top: 52px;
+    }
+    body .section3 .container .button {
+        padding: 7px 20px;
+    }
+}
